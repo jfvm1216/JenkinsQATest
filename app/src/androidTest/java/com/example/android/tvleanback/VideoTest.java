@@ -20,7 +20,7 @@ public class VideoTest {
     public void VideoParceableTest() {
         List<Video> testVideoList = new ArrayList<>();
         testVideoList.add(new Video.VideoBuilder()
-                .title("Dragon Movie")
+                .title("Dragon Movie city")
                 .description("A delightful kids movie")
                 .studio("Dream Movies")
                 .id((long) (Math.random()*100L))
