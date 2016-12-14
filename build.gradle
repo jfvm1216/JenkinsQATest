@@ -12,6 +12,10 @@ buildscript {
     }
 }
 
+lintOptions {
+    disable 'InvalidPackage'
+}
+
 allprojects {
     repositories {
         mavenCentral()
